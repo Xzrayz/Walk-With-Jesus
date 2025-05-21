@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Walk With Jesus - Main Menu</title>
+  <link rel="stylesheet" href="/walk-with-jesus/css/style.css"/>
+  <link rel="icon" type="image/png" href="/walk-with-jesus/images/animations/jesus-icon.png">
+</head>
+<body class="index-page">
+
+  <div class="menu-container">
+    <h1 class="game-title">Walk With Jesus</h1>
+    <div class="menu-buttons">
+      <button onclick="startGame()">Play</button>
+      <button onclick="openSettings()">Settings</button>
+      <button onclick="openCredits()">Credits</button>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div class="modal" id="settingsModal">
+    <h2>Settings</h2>
+    <label>Music Volume: <input type="range" min="0" max="1" step="0.01" id="volumeControl" /></label>
+    <button onclick="closeSettings()">Close</button>
+  </div>
+
+  <!-- Credits Modal -->
+  <div class="modal" id="creditsModal">
+    <h2>Credits</h2>
+    <p>Developed by: Donovan Xiong</p>
+    <button onclick="closeCredits()">Close</button>
+  </div>
+
+  <script>
+    function startGame() {
+      window.location.href = "game.html";
+    }
+
+    function openSettings() {
+      document.getElementById("settingsModal").style.display = "block";
+    }
+
+    function closeSettings() {
+      document.getElementById("settingsModal").style.display = "none";
+    }
+
+    function openCredits() {
+      document.getElementById("creditsModal").style.display = "block";
+    }
+
+    function closeCredits() {
+      document.getElementById("creditsModal").style.display = "none";
+    }
+  </script>
+</body>
+</html>

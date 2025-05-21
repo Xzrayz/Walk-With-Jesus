@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Walk With Jesus</title>
+  <link rel="stylesheet" href="/walk-with-jesus/css/style.css" />
+  <link rel="icon" type="image/png" href="/walk-with-jesus/images/animations/jesus-icon.png">
+</head>
+
+<body class="game-page">
+
+  <audio id="bg-music" autoplay loop hidden>
+    <source src="/walk-with-jesus/images/animations/backgrounds/background-audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+
+  <div class="game-container">
+    <!-- Animated Character -->
+    <div id="character" class="animated-character"></div>
+
+    <!-- Dialogue Box -->
+    <div class="dialogue-box">
+      <div id="sceneText" class="scene-text"></div>
+      <button id="nextBtn">Next</button>
+    </div>
+  </div>
+
+  <!-- Load scene data -->
+  <script src="/walk-with-jesus/js/scene.js"></script>
+
+  <!-- Load audio engine -->
+  <script src="/walk-with-jesus/js/audio.js"></script>
+
+  <!-- Main game logic -->
+  <script src="/walk-with-jesus/js/game.js"></script>
+</body>
+
+</html>
