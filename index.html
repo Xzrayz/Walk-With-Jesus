@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Walk With Jesus - Main Menu</title>
-  <link rel="stylesheet" href="/walk-with-jesus/css/style.css"/>
+  <!-- Cinzel font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/walk-with-jesus/css/style.css" />
   <link rel="icon" type="image/png" href="/walk-with-jesus/images/animations/jesus-icon.png">
 </head>
+
 <body class="index-page">
 
   <div class="menu-container">
@@ -19,11 +24,59 @@
   </div>
 
   <!-- Settings Modal -->
-  <div class="modal" id="settingsModal">
-    <h2>Settings</h2>
-    <label>Music Volume: <input type="range" min="0" max="1" step="0.01" id="volumeControl" /></label>
-    <button onclick="closeSettings()">Close</button>
-  </div>
+<div class="modal" id="settingsModal">
+  <h2>Settings</h2>
+
+  <!-- Audio Settings -->
+  <section>
+    <h3>Audio</h3>
+    <label>
+      Music Volume:
+      <input type="range" min="0" max="1" step="0.01" id="volumeControl" />
+    </label>
+  </section>
+
+  <!-- Language Settings -->
+  <section>
+    <h3>Language</h3>
+    <label>
+      Select Language:
+      <select id="languageSelect">
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+        <option value="jp">Japanese</option>
+        <!-- Add more as needed -->
+      </select>
+    </label>
+  </section>
+
+  <!-- Display Settings -->
+  <section>
+    <h3>Display</h3>
+    <label>
+      Brightness:
+      <input type="range" min="0.5" max="1.5" step="0.01" id="brightnessControl" />
+    </label>
+  </section>
+
+  <!-- Other Features -->
+  <section>
+    <h3>Preferences</h3>
+    <label>
+      Dark Mode:
+      <input type="checkbox" id="darkModeToggle" />
+    </label>
+    <label>
+      Enable Animations:
+      <input type="checkbox" id="animationToggle" checked />
+    </label>
+  </section>
+
+  <button onclick="saveSettings()">Save</button>
+  <button onclick="closeSettings()">Close</button>
+</div>
+
 
   <!-- Credits Modal -->
   <div class="modal" id="creditsModal">
@@ -54,4 +107,5 @@
     }
   </script>
 </body>
+
 </html>

@@ -1,209 +1,209 @@
 //First Scene
 const scenes = [
-    {
-        id: 0,
-        background: 'images/starry-night.jpg',
-        character: 'images/mary-joseph-walking.gif',
-        text: "In the days of Caesar Augustus, a decree went out that all the world should be registered. Joseph traveled from Nazareth to Bethlehem with Mary, who was expecting a child."
-    },
-    {
-        id: 1,
-        background: 'images/bethlehem-town.jpg',
-        character: 'images/innkeeper.gif',
-        text: "The inns were full. An innkeeper saw Mary’s pain and offered them a place among the animals, a small stable behind his home."
-    },
-    {
-        id: 2,
-        background: 'images/stable.jpg',
-        character: 'images/baby-jesus.gif',
-        text: "That night, Mary gave birth to her firstborn, a Son. She wrapped Him in cloth and laid Him in a manger because there was no room in the inn."
-    },
-    {
-        id: 3,
-        background: 'images/shepherd-field.jpg',
-        character: 'images/angel-glow.gif',
-        text: "Nearby, shepherds were tending their flocks when suddenly an angel appeared. 'Do not be afraid,' he said, 'for I bring you good news of great joy: today in the town of David a Savior has been born to you!'"
-    },
-    {
-        id: 4,
-        background: 'images/heavenly-host.jpg',
-        character: 'images/angel-choir.gif',
-        text: "A multitude of heavenly hosts appeared, praising God and saying, 'Glory to God in the highest, and on earth peace, goodwill toward men.'"
-    },
-    {
-        id: 5,
-        background: 'images/stable-night.jpg',
-        character: 'images/shepherds-kneeling.gif',
-        text: "The shepherds hurried to Bethlehem and found Mary, Joseph, and the baby lying in a manger. They bowed down and worshiped Him."
-    },
-    {
-        id: 6,
-        background: 'images/eastern-desert.jpg',
-        character: 'images/wise-men-camels.gif',
-        text: "Far in the East, wise men saw His star rise. They began their long journey, bearing gifts of gold, frankincense, and myrrh."
-    },
-    {
-        id: 7,
-        background: 'images/palace-herod.jpg',
-        character: 'images/king-herod.gif',
-        text: "The wise men first went to King Herod, asking, 'Where is the one who has been born king of the Jews?' Herod, disturbed, asked them to report back after they found Him."
-    },
-    {
-        id: 8,
-        background: 'images/house-bethlehem.jpg',
-        character: 'images/wise-men-gifts.gif',
-        text: "They found the child with Mary and offered their gifts, bowing low before Him. Warned in a dream, they returned to their country by another route."
-    },
-    {
-        id: 9,
-        background: 'images/desert-flight.jpg',
-        character: 'images/joseph-leading.gif',
-        text: "Joseph was warned in a dream: 'Flee to Egypt, for Herod seeks to destroy the child.' They rose that night and escaped by moonlight."
-    },
-    {
-        id: 10,
-        background: 'images/egypt.jpg',
-        character: 'images/holy-family.gif',
-        text: "They lived in Egypt until Herod died. Then the angel spoke again: 'Return to Israel.' And they settled in Nazareth, fulfilling the prophecy: 'He shall be called a Nazarene.'"
-    },
-    {
-        id: 11,
-        background: 'images/nazareth-home.jpg',
-        character: 'images/young-jesus.gif',
-        text: "Jesus grew in wisdom and stature. He was obedient to His parents, and the grace of God was upon Him."
-    },
-    {
-        id: 12,
-        background: 'images/temple-outer.jpg',
-        character: 'images/pilgrims.gif',
-        text: "Every year, His family went to Jerusalem for the Passover. When Jesus was twelve, they made the journey again as they always did."
-    },
-    {
-        id: 13,
-        background: 'images/temple-courtyard.jpg',
-        character: 'images/young-jesus-listening.gif',
-        text: "After the festival, Mary and Joseph started home. But Jesus stayed behind in the temple, sitting among the teachers, listening and asking questions."
-    },
-    {
-        id: 14,
-        background: 'images/temple-inner.jpg',
-        character: 'images/elders-listening.gif',
-        text: "All who heard Him were amazed at His understanding and His answers. They asked, 'Who is this child?'"
-    },
-    {
-        id: 15,
-        background: 'images/jerusalem-street.jpg',
-        character: 'images/mary-joseph-worried.gif',
-        text: "After a day's journey, Mary and Joseph realized Jesus was not with them. They returned to Jerusalem, searching anxiously for three days."
-    },
-    {
-        id: 16,
-        background: 'images/temple-return.jpg',
-        character: 'images/young-jesus-teaching.gif',
-        text: "They found Him in the temple. Mary said, 'Son, why have you treated us this way?' Jesus replied, 'Did you not know I must be in My Father’s house?'"
-    },
-    {
-        id: 17,
-        background: 'images/nazareth-home.jpg',
-        character: 'images/jesus-boy.gif',
-        text: "Then He went with them and was obedient. But Mary treasured all these things in her heart. Jesus increased in wisdom and favor with God and man."
-    }
+  {
+    id: 0,
+    background: '/walk-with-jesus/images/animations/backgrounds/starry-night.png',
+    character: '/walk-with-jesus/images/animations/assets/mary-joseph.png',
+    text: "In the days of Caesar Augustus, a decree went out that all the world should be registered. Joseph traveled from Nazareth to Bethlehem with Mary, who was expecting a child."
+  },
+  {
+    id: 1,
+    background: '/walk-with-jesus/images/animations/backgrounds/bethlehem-town.png',
+    character: '/walk-with-jesus/images/animations/assets/innkeeper.png',
+    text: "The inns were full. An innkeeper saw Mary’s pain and offered them a place among the animals, a small stable behind his home."
+  },
+  {
+    id: 2,
+    background: '/walk-with-jesus/images/animations/backgrounds/stable.png',
+    character: '/walk-with-jesus/images/animations/assets/baby-jesus.png',
+    text: "That night, Mary gave birth to her firstborn, a Son. She wrapped Him in cloth and laid Him in a manger because there was no room in the inn."
+  },
+  {
+    id: 3,
+    background: 'images/shepherd-field.jpg',
+    character: 'images/angel-glow.gif',
+    text: "Nearby, shepherds were tending their flocks when suddenly an angel appeared. 'Do not be afraid,' he said, 'for I bring you good news of great joy: today in the town of David a Savior has been born to you!'"
+  },
+  {
+    id: 4,
+    background: 'images/heavenly-host.jpg',
+    character: 'images/angel-choir.gif',
+    text: "A multitude of heavenly hosts appeared, praising God and saying, 'Glory to God in the highest, and on earth peace, goodwill toward men.'"
+  },
+  {
+    id: 5,
+    background: 'images/stable-night.jpg',
+    character: 'images/shepherds-kneeling.gif',
+    text: "The shepherds hurried to Bethlehem and found Mary, Joseph, and the baby lying in a manger. They bowed down and worshiped Him."
+  },
+  {
+    id: 6,
+    background: 'images/eastern-desert.jpg',
+    character: 'images/wise-men-camels.gif',
+    text: "Far in the East, wise men saw His star rise. They began their long journey, bearing gifts of gold, frankincense, and myrrh."
+  },
+  {
+    id: 7,
+    background: 'images/palace-herod.jpg',
+    character: 'images/king-herod.gif',
+    text: "The wise men first went to King Herod, asking, 'Where is the one who has been born king of the Jews?' Herod, disturbed, asked them to report back after they found Him."
+  },
+  {
+    id: 8,
+    background: 'images/house-bethlehem.jpg',
+    character: 'images/wise-men-gifts.gif',
+    text: "They found the child with Mary and offered their gifts, bowing low before Him. Warned in a dream, they returned to their country by another route."
+  },
+  {
+    id: 9,
+    background: 'images/desert-flight.jpg',
+    character: 'images/joseph-leading.gif',
+    text: "Joseph was warned in a dream: 'Flee to Egypt, for Herod seeks to destroy the child.' They rose that night and escaped by moonlight."
+  },
+  {
+    id: 10,
+    background: 'images/egypt.jpg',
+    character: 'images/holy-family.gif',
+    text: "They lived in Egypt until Herod died. Then the angel spoke again: 'Return to Israel.' And they settled in Nazareth, fulfilling the prophecy: 'He shall be called a Nazarene.'"
+  },
+  {
+    id: 11,
+    background: 'images/nazareth-home.jpg',
+    character: 'images/young-jesus.gif',
+    text: "Jesus grew in wisdom and stature. He was obedient to His parents, and the grace of God was upon Him."
+  },
+  {
+    id: 12,
+    background: 'images/temple-outer.jpg',
+    character: 'images/pilgrims.gif',
+    text: "Every year, His family went to Jerusalem for the Passover. When Jesus was twelve, they made the journey again as they always did."
+  },
+  {
+    id: 13,
+    background: 'images/temple-courtyard.jpg',
+    character: 'images/young-jesus-listening.gif',
+    text: "After the festival, Mary and Joseph started home. But Jesus stayed behind in the temple, sitting among the teachers, listening and asking questions."
+  },
+  {
+    id: 14,
+    background: 'images/temple-inner.jpg',
+    character: 'images/elders-listening.gif',
+    text: "All who heard Him were amazed at His understanding and His answers. They asked, 'Who is this child?'"
+  },
+  {
+    id: 15,
+    background: 'images/jerusalem-street.jpg',
+    character: 'images/mary-joseph-worried.gif',
+    text: "After a day's journey, Mary and Joseph realized Jesus was not with them. They returned to Jerusalem, searching anxiously for three days."
+  },
+  {
+    id: 16,
+    background: 'images/temple-return.jpg',
+    character: 'images/young-jesus-teaching.gif',
+    text: "They found Him in the temple. Mary said, 'Son, why have you treated us this way?' Jesus replied, 'Did you not know I must be in My Father’s house?'"
+  },
+  {
+    id: 17,
+    background: 'images/nazareth-home.jpg',
+    character: 'images/jesus-boy.gif',
+    text: "Then He went with them and was obedient. But Mary treasured all these things in her heart. Jesus increased in wisdom and favor with God and man."
+  }
 ];
 
 //Second Scene
 scenes.push(
-    {
-      id: 20,
-      background: 'images/jordan-river.jpg',
-      character: 'images/jesus-walking.gif',
-      text: "Then Jesus came from Galilee to the Jordan to be baptized by John."
-    },
-    {
-      id: 21,
-      background: 'images/jordan-river-baptism.jpg',
-      character: 'images/john-and-jesus.gif',
-      text: "John tried to deter Him: 'I need to be baptized by You, and do You come to me?' But Jesus replied, 'Let it be so now; it is proper to fulfill all righteousness.'"
-    },
-    {
-      id: 22,
-      background: 'images/jordan-water.jpg',
-      character: 'images/baptism-scene.gif',
-      text: "As soon as Jesus was baptized, He went up out of the water. At that moment, heaven was opened..."
-    },
-    {
-      id: 23,
-      background: 'images/sky-opening.jpg',
-      character: 'images/holy-spirit-dove.gif',
-      text: "...and the Spirit of God descended like a dove and alighted on Him."
-    },
-    {
-      id: 24,
-      background: 'images/sky-opening-light.jpg',
-      character: 'images/light-rays.gif',
-      text: "And a voice from heaven said, 'This is My Son, whom I love; with Him I am well pleased.'"
-    },
-    {
-      id: 25,
-      background: 'images/judean-wilderness.jpg',
-      character: 'images/jesus-alone.gif',
-      text: "Then Jesus was led by the Spirit into the wilderness to be tempted by the devil. He fasted forty days and forty nights."
-    },
-    {
-      id: 26,
-      background: 'images/rocks.jpg',
-      character: 'images/devil-appears.gif',
-      text: "The tempter came to Him and said, 'If You are the Son of God, tell these stones to become bread.'"
-    },
-    {
-      id: 27,
-      background: 'images/wilderness-desert.jpg',
-      character: 'images/jesus-rebuking.gif',
-      text: "Jesus answered, 'It is written: Man shall not live on bread alone, but on every word that comes from the mouth of God.'"
-    },
-    {
-      id: 28,
-      background: 'images/temple-rooftop.jpg',
-      character: 'images/devil-tempting.gif',
-      text: "Then the devil took Him to the holy city and had Him stand on the highest point of the temple."
-    },
-    {
-      id: 29,
-      background: 'images/temple-top.jpg',
-      character: 'images/devil-pointing-down.gif',
-      text: "'If You are the Son of God,' he said, 'throw Yourself down. For it is written: He will command His angels concerning You…'"
-    },
-    {
-      id: 30,
-      background: 'images/temple-top-light.jpg',
-      character: 'images/jesus-standing-firm.gif',
-      text: "Jesus replied, 'It is also written: Do not put the Lord your God to the test.'"
-    },
-    {
-      id: 31,
-      background: 'images/mountain-view.jpg',
-      character: 'images/devil-world.gif',
-      text: "Again, the devil took Him to a very high mountain and showed Him all the kingdoms of the world and their splendor."
-    },
-    {
-      id: 32,
-      background: 'images/temptation.jpg',
-      character: 'images/devil-commanding.gif',
-      text: "'All this I will give You,' he said, 'if You will bow down and worship me.'"
-    },
-    {
-      id: 33,
-      background: 'images/mountain-fire.jpg',
-      character: 'images/jesus-rebuking.gif',
-      text: "Jesus said, 'Away from Me, Satan! For it is written: Worship the Lord your God, and serve Him only.'"
-    },
-    {
-      id: 34,
-      background: 'images/satan-flees.jpg',
-      character: 'images/devil-fleeing.gif',
-      text: "Then the devil left Him, and angels came and attended Him."
-    }
-  );
-  
+  {
+    id: 20,
+    background: 'images/jordan-river.jpg',
+    character: 'images/jesus-walking.gif',
+    text: "Then Jesus came from Galilee to the Jordan to be baptized by John."
+  },
+  {
+    id: 21,
+    background: 'images/jordan-river-baptism.jpg',
+    character: 'images/john-and-jesus.gif',
+    text: "John tried to deter Him: 'I need to be baptized by You, and do You come to me?' But Jesus replied, 'Let it be so now; it is proper to fulfill all righteousness.'"
+  },
+  {
+    id: 22,
+    background: 'images/jordan-water.jpg',
+    character: 'images/baptism-scene.gif',
+    text: "As soon as Jesus was baptized, He went up out of the water. At that moment, heaven was opened..."
+  },
+  {
+    id: 23,
+    background: 'images/sky-opening.jpg',
+    character: 'images/holy-spirit-dove.gif',
+    text: "...and the Spirit of God descended like a dove and alighted on Him."
+  },
+  {
+    id: 24,
+    background: 'images/sky-opening-light.jpg',
+    character: 'images/light-rays.gif',
+    text: "And a voice from heaven said, 'This is My Son, whom I love; with Him I am well pleased.'"
+  },
+  {
+    id: 25,
+    background: 'images/judean-wilderness.jpg',
+    character: 'images/jesus-alone.gif',
+    text: "Then Jesus was led by the Spirit into the wilderness to be tempted by the devil. He fasted forty days and forty nights."
+  },
+  {
+    id: 26,
+    background: 'images/rocks.jpg',
+    character: 'images/devil-appears.gif',
+    text: "The tempter came to Him and said, 'If You are the Son of God, tell these stones to become bread.'"
+  },
+  {
+    id: 27,
+    background: 'images/wilderness-desert.jpg',
+    character: 'images/jesus-rebuking.gif',
+    text: "Jesus answered, 'It is written: Man shall not live on bread alone, but on every word that comes from the mouth of God.'"
+  },
+  {
+    id: 28,
+    background: 'images/temple-rooftop.jpg',
+    character: 'images/devil-tempting.gif',
+    text: "Then the devil took Him to the holy city and had Him stand on the highest point of the temple."
+  },
+  {
+    id: 29,
+    background: 'images/temple-top.jpg',
+    character: 'images/devil-pointing-down.gif',
+    text: "'If You are the Son of God,' he said, 'throw Yourself down. For it is written: He will command His angels concerning You…'"
+  },
+  {
+    id: 30,
+    background: 'images/temple-top-light.jpg',
+    character: 'images/jesus-standing-firm.gif',
+    text: "Jesus replied, 'It is also written: Do not put the Lord your God to the test.'"
+  },
+  {
+    id: 31,
+    background: 'images/mountain-view.jpg',
+    character: 'images/devil-world.gif',
+    text: "Again, the devil took Him to a very high mountain and showed Him all the kingdoms of the world and their splendor."
+  },
+  {
+    id: 32,
+    background: 'images/temptation.jpg',
+    character: 'images/devil-commanding.gif',
+    text: "'All this I will give You,' he said, 'if You will bow down and worship me.'"
+  },
+  {
+    id: 33,
+    background: 'images/mountain-fire.jpg',
+    character: 'images/jesus-rebuking.gif',
+    text: "Jesus said, 'Away from Me, Satan! For it is written: Worship the Lord your God, and serve Him only.'"
+  },
+  {
+    id: 34,
+    background: 'images/satan-flees.jpg',
+    character: 'images/devil-fleeing.gif',
+    text: "Then the devil left Him, and angels came and attended Him."
+  }
+);
+
 //Third Scene
 scenes.push(
   {
