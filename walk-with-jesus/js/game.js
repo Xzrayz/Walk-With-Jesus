@@ -32,7 +32,5 @@ nextBtn.addEventListener('click', () => {
 // Initial load
 window.onload = () => {
   loadScene(currentScene);
-  music.volume = 0.5;
+  music.volume = 1.0;
 };
-
-

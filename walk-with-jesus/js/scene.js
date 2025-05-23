@@ -20,13 +20,14 @@ const scenes = [
   },
   {
     id: 3,
-    background: 'images/shepherd-field.jpg',
-    character: 'images/angel-glow.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/shepherd-land.png',
+    character: '/walk-with-jesus/images/animations/assets/shepherd.png',
+    character1: '/walk-with-jesus/images/animations/assets/angel.png',
     text: "Nearby, shepherds were tending their flocks when suddenly an angel appeared. 'Do not be afraid,' he said, 'for I bring you good news of great joy: today in the town of David a Savior has been born to you!'"
   },
   {
     id: 4,
-    background: 'images/heavenly-host.jpg',
+    background: '/walk-with-jesus/images/animations/backgrounds/heavenly-host.png',
     character: 'images/angel-choir.gif',
     text: "A multitude of heavenly hosts appeared, praising God and saying, 'Glory to God in the highest, and on earth peace, goodwill toward men.'"
   },
