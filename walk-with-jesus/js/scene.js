@@ -32,14 +32,14 @@ const scenes = [
   },
   {
     id: 5,
-    background: 'images/stable-night.jpg',
-    character: 'images/shepherds-kneeling.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/stable-kneeling.png',
+    character: '/walk-with-jesus/images/animations/assets/shepherds-kneeling.png',
     text: "The shepherds hurried to Bethlehem and found Mary, Joseph, and the baby lying in a manger. They bowed down and worshiped Him."
   },
   {
     id: 6,
-    background: 'images/eastern-desert.jpg',
-    character: 'images/wise-men-camels.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/eastern-desert.png',
+    character: '/walk-with-jesus/images/animations/assets/3-wise-men.png',
     text: "Far in the East, wise men saw His star rise. They began their long journey, bearing gifts of gold, frankincense, and myrrh."
   },
   {
