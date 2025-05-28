@@ -39,25 +39,25 @@ const scenes = [
   {
     id: 6,
     background: '/walk-with-jesus/images/animations/backgrounds/eastern-desert.png',
-    character: '/walk-with-jesus/images/animations/assets/3-wise-men.png',
+    character: '/walk-with-jesus/images/animations/assets/3-wise-men-camels.png',
     text: "Far in the East, wise men saw His star rise. They began their long journey, bearing gifts of gold, frankincense, and myrrh."
   },
   {
     id: 7,
-    background: 'images/palace-herod.jpg',
-    character: 'images/king-herod.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/palace-herod.png',
+    character: '/walk-with-jesus/images/animations/assets/king-herod.png',
     text: "The wise men first went to King Herod, asking, 'Where is the one who has been born king of the Jews?' Herod, disturbed, asked them to report back after they found Him."
   },
   {
     id: 8,
-    background: 'images/house-bethlehem.jpg',
-    character: 'images/wise-men-gifts.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/house-bethleham.png',
+    character: '/walk-with-jesus/images/animations/assets/3-wise-men-offering.png',
     text: "They found the child with Mary and offered their gifts, bowing low before Him. Warned in a dream, they returned to their country by another route."
   },
   {
     id: 9,
-    background: 'images/desert-flight.jpg',
-    character: 'images/joseph-leading.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/desert-flight.png',
+    character: '/walk-with-jesus/images/animations/assets/joseph-leading.png',
     text: "Joseph was warned in a dream: 'Flee to Egypt, for Herod seeks to destroy the child.' They rose that night and escaped by moonlight."
   },
   {

@@ -1,3 +1,4 @@
+/* Base styles: Mobile first */
 body {
   font-family: 'Cinzel', serif;
   margin: 0;
@@ -10,7 +11,28 @@ body {
   background-position: center;
   height: 100%;
   width: 100%;
+
+  /* Mobile-first sizing */
+  font-size: 16px;
+  padding: 1rem;
 }
+
+/* Tablet styles */
+@media (min-width: 600px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+    padding: 2rem;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+  body {
+    font-size: 20px;
+    padding: 3rem;
+  }
+}
+
 
 .index-page {
   display: flex;
