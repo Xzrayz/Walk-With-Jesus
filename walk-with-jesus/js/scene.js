@@ -50,7 +50,7 @@ const scenes = [
   },
   {
     id: 8,
-    background: '/walk-with-jesus/images/animations/backgrounds/house-bethleham.png',
+    background: '/walk-with-jesus/images/animations/backgrounds/house-bethlehem.png',
     character: '/walk-with-jesus/images/animations/assets/3-wise-men-offering.png',
     text: "They found the child with Mary and offered their gifts, bowing low before Him. Warned in a dream, they returned to their country by another route."
   },
@@ -62,20 +62,20 @@ const scenes = [
   },
   {
     id: 10,
-    background: 'images/egypt.jpg',
-    character: 'images/holy-family.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/egpyt.png',
+    character: '/walk-with-jesus/images/animations/assets/holy-family.png',
     text: "They lived in Egypt until Herod died. Then the angel spoke again: 'Return to Israel.' And they settled in Nazareth, fulfilling the prophecy: 'He shall be called a Nazarene.'"
   },
   {
     id: 11,
-    background: 'images/nazareth-home.jpg',
-    character: 'images/young-jesus.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/nazareth-home.png',
+    character: '/walk-with-jesus/images/animations/assets/young-jesus.png',
     text: "Jesus grew in wisdom and stature. He was obedient to His parents, and the grace of God was upon Him."
   },
   {
     id: 12,
-    background: 'images/temple-outer.jpg',
-    character: 'images/pilgrims.gif',
+    background: '/walk-with-jesus/images/animations/backgorunds/temple-outer.png',
+    character: '/walk-with-jesus/images/animations/assets/pilgrims.png',
     text: "Every year, His family went to Jerusalem for the Passover. When Jesus was twelve, they made the journey again as they always did."
   },
   {
