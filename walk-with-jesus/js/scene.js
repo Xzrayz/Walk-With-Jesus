@@ -74,38 +74,38 @@ const scenes = [
   },
   {
     id: 12,
-    background: '/walk-with-jesus/images/animations/backgorunds/temple-outer.png',
+    background: '/walk-with-jesus/images/animations/backgrounds/temple-outer.png',
     character: '/walk-with-jesus/images/animations/assets/pilgrims.png',
     text: "Every year, His family went to Jerusalem for the Passover. When Jesus was twelve, they made the journey again as they always did."
   },
   {
     id: 13,
-    background: 'images/temple-courtyard.jpg',
-    character: 'images/young-jesus-listening.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/court-yard.png',
+    character: '/walk-with-jesus/images/animations/assets/jesus-listening.png',
     text: "After the festival, Mary and Joseph started home. But Jesus stayed behind in the temple, sitting among the teachers, listening and asking questions."
   },
   {
     id: 14,
-    background: 'images/temple-inner.jpg',
-    character: 'images/elders-listening.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/temple-inner.png',
+    character: '/walk-with-jesus/images/animations/assets/elders-listening.png',
     text: "All who heard Him were amazed at His understanding and His answers. They asked, 'Who is this child?'"
   },
   {
     id: 15,
-    background: 'images/jerusalem-street.jpg',
-    character: 'images/mary-joseph-worried.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/jerusalem-street.png',
+    character: '/walk-with-jesus/images/animations/assets/mary-joseph-searching.png',
     text: "After a day's journey, Mary and Joseph realized Jesus was not with them. They returned to Jerusalem, searching anxiously for three days."
   },
   {
     id: 16,
-    background: 'images/temple-return.jpg',
-    character: 'images/young-jesus-teaching.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/temple-outer.png',
+    character: '/walk-with-jesus/images/animations/assets/young-jesus.png',
     text: "They found Him in the temple. Mary said, 'Son, why have you treated us this way?' Jesus replied, 'Did you not know I must be in My Father’s house?'"
   },
   {
     id: 17,
-    background: 'images/nazareth-home.jpg',
-    character: 'images/jesus-boy.gif',
+    background: '/walk-with-jesus/images/animations/backgrounds/nazareth-home.png',
+    character: '/walk-with-jesus/images/animations/assets/jesus-boy.png',
     text: "Then He went with them and was obedient. But Mary treasured all these things in her heart. Jesus increased in wisdom and favor with God and man."
   }
 ];

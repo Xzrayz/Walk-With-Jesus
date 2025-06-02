@@ -4,17 +4,12 @@ body {
   margin: 0;
   background: #f5f1ea no-repeat center center / cover;
   color: #333;
-  overflow-y: hidden;
   overflow-x: hidden;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
   width: 100%;
-
-  /* Mobile-first sizing */
-  font-size: 16px;
-  padding: 1rem;
 }
 
 
@@ -47,6 +42,7 @@ body {
   background: #d5ba95;
   color: black;
   cursor: pointer;
+  position: relative;
 }
 
 

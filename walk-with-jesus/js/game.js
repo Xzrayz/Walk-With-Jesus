@@ -2,6 +2,7 @@ let currentScene = 0;
 
 const sceneText = document.getElementById('sceneText');
 const nextBtn = document.getElementById('nextBtn');
+const backBtn = document.getElementById('backBtn');
 const character = document.getElementById('character');
 const music = document.getElementById('bg-music');
 
@@ -25,6 +26,13 @@ nextBtn.addEventListener('click', () => {
     alert("You've completed the story. Thank you for walking with Jesus.");
     window.location.href = "index.html";
   } else {
+    loadScene(currentScene);
+  }
+});
+
+backBtn.addEventListener('click', () => {
+  if (currentScene > 0) {
+    currentScene--;
     loadScene(currentScene);
   }
 });
