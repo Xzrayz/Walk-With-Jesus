@@ -115,37 +115,37 @@ scenes.push(
   {
     id: 20,
     background: 'images/jordan-river.jpg',
-    character: 'images/jesus-walking.gif',
+    character: '/walk-with-jesus/images/animations/assets/jesus-walking.png',
     text: "Then Jesus came from Galilee to the Jordan to be baptized by John."
   },
   {
     id: 21,
     background: 'images/jordan-river-baptism.jpg',
-    character: 'images/john-and-jesus.gif',
+    character: '/walk-with-jesus/images/animations/assets/john-jesus.png',
     text: "John tried to deter Him: 'I need to be baptized by You, and do You come to me?' But Jesus replied, 'Let it be so now; it is proper to fulfill all righteousness.'"
   },
   {
     id: 22,
     background: 'images/jordan-water.jpg',
-    character: 'images/baptism-scene.gif',
+    character: '/walk-with-jesus/images/animations/assets/baptism-scene.png',
     text: "As soon as Jesus was baptized, He went up out of the water. At that moment, heaven was opened..."
   },
   {
     id: 23,
     background: 'images/sky-opening.jpg',
-    character: 'images/holy-spirit-dove.gif',
+    character: '/walk-with-jesus/images/animations/assets/holy-dove.png',
     text: "...and the Spirit of God descended like a dove and alighted on Him."
   },
   {
     id: 24,
     background: 'images/sky-opening-light.jpg',
-    character: 'images/light-rays.gif',
+    character: '/walk-with-jesus/images/animations/assets/light-rays.png',
     text: "And a voice from heaven said, 'This is My Son, whom I love; with Him I am well pleased.'"
   },
   {
     id: 25,
     background: 'images/judean-wilderness.jpg',
-    character: 'images/jesus-alone.gif',
+    character: '/walk-with-jesus/images/animations/jesus-wilderness.png',
     text: "Then Jesus was led by the Spirit into the wilderness to be tempted by the devil. He fasted forty days and forty nights."
   },
   {
